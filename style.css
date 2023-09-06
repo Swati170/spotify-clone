@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:  #d6cbd3;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.logo img{
+    height: 50px;
+    width: 120px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+nav{
+    background-color:black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+.search-input{
+    width: 400px;
+    height: 35px;
+    font-size: 1rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input {
+    display: flex;
+}
+
+.search-icon{
+    width: 45px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+.navlist {
+    display: flex;
+    color: white;
+}
+.navlist p{
+    padding: 15px;
+}
+/* list of songs */
+.container{
+    height: 100%;
+    width: 85%;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-size: cover;
+}
+.container h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* bottom design */
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color:black ;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.icons{
+    margin-top:15px ;
+}
+.icons i{
+    cursor: pointer;
+    padding: 5px;
+
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    padding-right: 10px;
+}
+/* song list design */
+.songItem{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box{
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    padding: 20px;
+    margin: 12px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+
+.box-content p{
+    color: black;
+    padding: 8px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.box-img{
+    height:150px ;
+    width: 150px;
+    background-size: cover;
+    padding-left: 25px;
+    
+}
+.iclass{
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+
+/* premium */
+.why-premium{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding: 75px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content-premium{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 70px;
+    
+    
+}
+.pre-pros{
+    width: 470px;
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    justify-content: space-evenly;
+    
+ }
+.img{
+    height: 142px;
+    width: 150px;
+}
+.big{
+    font-size: 22px;
+    font-weight: 700;
+}
+.small{
+    font-size: 16px;
+}
+.pro{
+    text-align: center;
+    padding: 50px;
+}
+
+/* footer */
+.f1{
+    width: 97%;
+    height: 300px;
+    padding: 60px 0px 60px 45px ;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.company{
+    padding: 0px 10px;
+}
+.three{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.three dt{
+    width: 132px;
+    height: 17px;
+    margin: 20px 0px;
+    color: #919496;
+}
+.three dd{
+    width: 132px;
+    height: 42px;
+    font-size: 16px;
+}
+.three dd a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logof{
+    width: 162px;
+    height: 346px;
+    padding: 0px 15px;
+}
+.logof img{
+    height: 42px;
+    width: 132px;
+}
+
+.social{
+    height:346px ;
+    width: 192px;
+    margin: 15px 15px 0px 40px;
+}
+.social i{
+    cursor: pointer;
+    padding: 7px;
+}
+.social i:hover{
+    transform: scale(1.1);
+}
+.eng{
+    width: 100%;
+    height: 40px;
+    
+    background-color: black;
+}
+.eng a{
+    color: #919496;
+    padding-left: 85%;
+    text-decoration: none;
+}
+.last{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+}
+.last1{
+    font-size: 12px;
+    margin-left: 60px;
+    margin-right: 710px;
+    
+}
+.last1 a{
+    
+    padding: 5px;
+    padding: 12px 10px;
+    color: #919496;
+}
+.last2{
+    color: #919496;
+}
+
+
+
